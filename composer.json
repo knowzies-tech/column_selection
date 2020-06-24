@@ -1,0 +1,29 @@
+{
+    "name": "knowzies-tech/column_selection",
+    "description": "Column selection in table",
+    "type": "library",
+    "require": {
+        "php": ">=7",
+        "illuminate/support": "5.5.x|5.6.x|5.7.x|5.8.x|6.0.x"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Knowzies",
+            "email": "lokesh.kumar@knowzies.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rohitpavaskar\\ColumnSelection\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rohitpavaskar\\ColumnSelection\\ColumnSelectionServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
